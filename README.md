@@ -17,6 +17,8 @@
   - Create seed `knex seed:make initial` (if needed)
     - run seed `knex seed:run`
 
+  - DELETE or CHANGE this `README.md`
+
 ## Development
   - Server code lives in `./server.js`
 
@@ -34,5 +36,5 @@
 
   - In another terminal run `nodemon server.js` or `node server.js`
     - this will start the server.
-    
+
 Webpack builds to `bundle.js`.  This file is git ignored and package.json is set for heroku to a new bundle when deployed.
